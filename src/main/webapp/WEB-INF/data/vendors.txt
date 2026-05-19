@@ -1,0 +1,8 @@
+V-A1B2C3D4|Saman Perera|[email protected]|0771234567|Photography|Studio Lumiere|85000.00|Available|Premium
+V-E5F6G7H8|Nimal Silva|[email protected]|0712345678|Catering|Royal Feast Catering|250000.00|Available|Standard
+V-I9J0K1L2|Anushka Fernando|[email protected]|0759876543|Florist|Petal & Stem|45000.00|Available|Standard
+V-M3N4O5P6|Dilani Jayasuriya|[email protected]|0773344556|Decoration|Dream Weddings Decor|180000.00|Booked|Premium
+V-Q7R8S9T0|Ruwan Bandara|[email protected]|0762233445|Music / DJ|Beat Drop DJs|65000.00|Available|Standard
+V-U1V2W3X4|Priya Wickramasinghe|[email protected]|0719988776|Cake|Sweet Symphony|22000.00|Available|Standard
+V-Y5Z6A7B8|Kasun Gunaratne|[email protected]|0775566778|Venue|Lakeside Banquet Hall|450000.00|Available|Premium
+V-C9D0E1F2|Tharindu Rathnayake|[email protected]|0701122334|Make-up|Glow Bridal Studio|35000.00|Available|Standard
