@@ -1,14 +1,72 @@
 package com.wedding.model;
 
-public abstract class Vendor extends Person {
-    protected String serviceType;
-    protected double price;
+/**
+ * Vendor class demonstrating INHERITANCE (extends Person)
+ * and ENCAPSULATION (private fields with accessors).
+ */
+public class Vendor extends Person {
 
-    public Vendor(String id, String name, String phone, String serviceType, double price) {
-        super(id, name, phone);
-        this.serviceType = serviceType;
-        this.price = price;
+    private String serviceType;
+    private String company;
+    private double basePrice;
+    private String availability;
+    public Vendor() {
+        super();
     }
-    public abstract String getCategory();
-    // getters/setters
+
+    public Vendor(String id, String name, String email, String phone,
+                  String serviceType, String company,
+                  double basePrice, String availability) {
+        super(id, name, email, phone);
+        this.serviceType = serviceType;
+        this.company = company;
+        this.basePrice = basePrice;
+        this.availability = availability;
+    }
+
+    public double getServiceFee() {
+        return basePrice;
+    }
+
+    @Override
+    public String getRole() {
+        return "Vendor";
+    }
+
+    // Encapsulation: getters and setters
+    public String getServiceType() {
+        return serviceType;
+    }
+
+    public void setServiceType(String serviceType) {
+        this.serviceType = serviceType;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public double getBasePrice() {
+        return basePrice;
+    }
+
+    public void setBasePrice(double basePrice) {
+        this.basePrice = basePrice;
+    }
+
+    public String getAvailability() {
+        return availability;
+    }
+
+    public void setAvailability(String availability) {
+        this.availability = availability;
+    }
+
+    public String getCategory() {
+        return "Standard";
+    }
 }
