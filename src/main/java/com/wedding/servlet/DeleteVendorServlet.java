@@ -13,8 +13,6 @@ import java.io.IOException;
 
 /**
  * Handles DELETE - remove a vendor by id.
- *
- * GET /deleteVendor?id=...
  */
 @WebServlet("/deleteVendor")
 public class DeleteVendorServlet extends HttpServlet {
